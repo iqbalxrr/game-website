@@ -72,7 +72,7 @@
 .nav-container{
     display: flex;
     justify-content:space-between;
-    border: 2px solid tomato;
+   
     width: 100%;
     height: 450px; 
     gap:30px;
@@ -117,7 +117,7 @@
 
 .main-section{
     display: flex;
-  border: 2px solid tomato;
+  
   justify-content: space-around;
   gap: 70px;
   margin: 50px;
@@ -180,14 +180,14 @@
 /* card-contant styles */
 .card-contant{
     display: flex;
-    border: 2px solid tomato;
+    
     gap: 10px;
     margin: 50px;
 
 }
 .card{
     text-align:center;
-    border: 2px solid tomato;
+    
     padding: 10px;
 }
 .card img {
@@ -198,7 +198,7 @@
 
 .Play-Instantly-section{
     display: flex;
-    border: 2px solid tomato;
+  
     margin:0px 70px;
     
 }
@@ -227,7 +227,7 @@
 
 .Play-Games-section{
     display: flex;
-    border: 2px solid tomato;
+    
     margin: 0px 70px;
 }
 .games-contant{
@@ -247,4 +247,53 @@
     position: relative;
     margin-left: 110px;
     bottom: 50px;
+}
+/* Careers-container styles */
+.Careers-container{
+    display: flex;
+    
+    background-color:aliceblue;
+    gap:0px;
+    margin: 0px;
+    background-color:#f854a9;
+}
+.careers-img-section{
+   margin-right: 20px;
+}
+.careers-img-section img {
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+.careers-contant{
+    padding: 70px;
+    
+}
+.careers-sub-container{
+    display: flex;
+    gap: 140px;
+}
+.careers-sub-container ul{
+    padding-left: 0px;
+
+}
+.careers-sub-container li {
+    list-style: none;
+  
+}
+.careers-sub-1{
+    text-align: left;
+}
+.careers-sub-2{
+    text-align: right;
+}
+.btn-third{
+    padding: 17px 30px;
+    border-radius: 48px;
+    margin: 20px;
+    margin-left: 0px;
+    background-color: white;
+    color: var(--main-color);
 }
