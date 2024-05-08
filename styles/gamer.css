@@ -251,8 +251,7 @@
 /* Careers-container styles */
 .Careers-container{
     display: flex;
-    
-    background-color:aliceblue;
+    color:white;
     gap:0px;
     margin: 0px;
     background-color:#f854a9;
@@ -274,6 +273,7 @@
 .careers-sub-container{
     display: flex;
     gap: 140px;
+   
 }
 .careers-sub-container ul{
     padding-left: 0px;
@@ -296,4 +296,33 @@
     margin-left: 0px;
     background-color: white;
     color: var(--main-color);
+}
+
+/* game-playlist styles */
+
+.game-playlist-container{
+    display:grid;
+   grid-template-columns: repeat(5 ,auto)  ;
+    margin: 50px 70px;
+    gap: 10px;
+   
+}
+.game-playlist{
+    display: flex;  
+}
+.game-playlist:hover{
+    border: 2px solid violet;
+   color: var(--main-color);
+   border-radius: 50px;
+}
+.game-playlist img{
+    width: 40px;
+    height: 40px;
+    
+
+}
+#game-playlist-last{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
 }
